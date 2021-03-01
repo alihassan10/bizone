@@ -1,0 +1,252 @@
+html{
+    scroll-behavior: smooth;
+  }
+  :root{
+      --pink: #ff5e94;
+      --green: #599459;
+  }
+  h1,h2,h3,h4,h5,h6{
+      padding: 0;
+      margin: 0;
+  }
+  p{
+      padding: 0;
+      margin: 0;
+  }
+  ul{
+      padding: 0;
+      margin: 0;
+  }
+  .section-title{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .section-title h1{
+      font-weight: bold;
+  }
+  .btn{
+      background-color: var(--pink);
+      color: #fff;
+      border: 1px solid var(--pink);
+      padding: 12px 20px;
+      border-radius: 0;
+  }
+  .btn-view{
+      background-color: transparent;
+      color: var(--pink);
+  }
+  .form-control{
+      height: 50px;
+      margin-bottom: 15px;
+  }
+  .float-right{
+      float: right!important;
+  }
+  a:hover{
+    text-decoration: none;
+}
+  section{
+      padding: 100px 0;
+  }
+  .mb-50{
+    margin-bottom: 50px;
+}
+ .mb-30{
+    margin-bottom: 30px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.pt-30{
+    padding-top: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+li{
+    list-style: none;
+}
+.bold{
+    font-weight: bold;
+}
+/*  <!-- ===========================================
+================  Navbar  ===============  
+===========================================  --> */
+.nav-item{
+    font-size: 13px;
+}
+.nav-link{
+    color: #fff!important;
+}
+.nav-icon a{
+    color: #fff;
+    font-size: 13px;
+}
+.home{
+    color: aqua!important;
+    border-bottom: 2px solid #8ef38e;
+}
+.navbar{
+    padding: 15px 0;
+    background-color: green;
+}
+/*  <!-- ===========================================
+================  Services  ===============  
+===========================================  --> */
+.service-icon-1 a{
+    font-size: 40px;
+    color: #7af07a;
+}
+.service-box-1:hover .service-textarea h2{
+    color: #7af07a
+}
+.service-icon-2 a{
+    font-size: 40px;
+    color: #4ed8f0;
+}
+.service-box-2:hover .service-textarea h2{
+    color: #4ed8f0;
+}
+/*  <!-- ===========================================
+================  Project Lists  ===============  
+===========================================  --> */
+/* .list-box-1 a{
+    font-size: 60px!important;
+    color: #fff;
+} */
+/* .list-box-1{
+    color: #fff;
+    background-color: #7af07a;
+    padding: 80px 20px;
+} */
+.list-box-1:hover .list-box-1 a{
+    color: green;
+}
+.list-box-1 a{
+    font-size: 60px!important;
+    color: #fff;
+}
+/* .list-box-1:hover .list-icon a{
+    color: green!important;
+} */
+.list-box-1{
+    color: #fff;
+    background-color: #7af07a;
+    padding: 80px 20px;
+}
+.list-box-2 a{
+    font-size: 60px!important;
+    color: #fff;
+}
+.list-box-2{
+    color: #fff;
+    background-color: #a5a8a5;
+    padding: 80px 20px;
+    transition: .06s all ease;
+}
+.list-box-2:hover .list-icon a{
+    color: green!important;
+    transform: translate(70px,70px);
+}
+
+.list-box-3 a{
+    font-size: 60px!important;
+    color: #fff;
+}
+.list-box-3{
+    color: #fff;
+    background-color: #4ed8f0;
+    padding: 80px 20px;
+}
+.list-box-4 a{
+    font-size: 60px!important;
+    color: #fff;
+}
+.list-box-4{
+    color: #fff;
+    background-color: #7af07a;
+    padding: 80px 20px;
+}
+.service2-top{
+    background-color: #7af07a;
+    width: 202px;
+    height: 77px;
+    display: block;           why use this
+}
+.service2-icon-1{
+    background-color: #7af07a;
+    width: 108px;
+    height: 108px;
+    border-radius: 108px;
+    margin-left: 45px;
+    margin-top: -55px;
+    line-height: 285%;
+}
+.service2-textarea{
+    padding-top: 70px;
+    background-color: #fff;
+    width: 202px;
+    /* height: 215px; */
+}
+.service2-box1-1{
+    position: relative;
+    top: 103px;
+}
+.main-service{
+    padding: 0 50px;
+}
+.service2-icon-1{
+    font-size: 40px;
+}
+/* .service-top{
+    width: 100%;
+    height: 72px;
+    display: block;
+}
+.service2-icon-1 a{
+    font-size: 40px;
+    color: #fff;
+    line-height: 55px;
+    display: block;
+}
+.service2-icon-1{
+    border-radius: 100px;
+    display: inline-block;
+    height: 100px;
+    margin-bottom: 40px;
+    margin-top: -50px;
+    width: 100px;
+    background-color: #a5a8a5;
+    width: 100%;
+    height: 62px;
+    display: block;
+} */
+.service2-textarea{
+    background-color: #fff;
+}
+/*  <!-- ===========================================
+================  Footer ===============  
+===========================================  --> */
+.footer-links a{
+    color: #fff;
+}
+span{
+    color: #fff;
+}
+.footer-textarea p{
+    color: #e4dede;
+}
+@media only screen and (min-width:992px){
+    .nav-item{
+        margin-right: 25px;
+    }
+}
+@media only screen and (max-width:373px){
+    .footer-links a{
+        font-size: 10px;
+    }
+}
+
