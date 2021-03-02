@@ -25,15 +25,10 @@ html{
       font-weight: bold;
   }
   .btn{
-      background-color: var(--pink);
+      background-color: #a5a8a5;
       color: #fff;
-      border: 1px solid var(--pink);
-      padding: 12px 20px;
+      padding: 12px 30%;
       border-radius: 0;
-  }
-  .btn-view{
-      background-color: transparent;
-      color: var(--pink);
   }
   .form-control{
       height: 50px;
@@ -96,32 +91,32 @@ li{
 /*  <!-- ===========================================
 ================  Services  ===============  
 ===========================================  --> */
-.service-icon-1 a{
+.service-icon-1 span{
     font-size: 40px;
     color: #7af07a;
 }
 .service-box-1:hover .service-textarea h2{
     color: #7af07a
 }
-.service-icon-2 a{
+.service-icon-2 span{
     font-size: 40px;
     color: #4ed8f0;
 }
 .service-box-2:hover .service-textarea h2{
     color: #4ed8f0;
 }
+.service-box-1:hover .trans-icon{
+    transform: scale(1.5);
+}
+.service-box-2:hover .trans-icon{
+    transform: scale(1.5);
+}
+.service-textarea a{
+    color: #000;
+}
 /*  <!-- ===========================================
 ================  Project Lists  ===============  
 ===========================================  --> */
-/* .list-box-1 a{
-    font-size: 60px!important;
-    color: #fff;
-} */
-/* .list-box-1{
-    color: #fff;
-    background-color: #7af07a;
-    padding: 80px 20px;
-} */
 .list-box-1:hover .list-box-1 a{
     color: green;
 }
@@ -129,9 +124,6 @@ li{
     font-size: 60px!important;
     color: #fff;
 }
-/* .list-box-1:hover .list-icon a{
-    color: green!important;
-} */
 .list-box-1{
     color: #fff;
     background-color: #7af07a;
@@ -146,10 +138,6 @@ li{
     background-color: #a5a8a5;
     padding: 80px 20px;
     transition: .06s all ease;
-}
-.list-box-2:hover .list-icon a{
-    color: green!important;
-    transform: translate(70px,70px);
 }
 
 .list-box-3 a{
@@ -170,62 +158,118 @@ li{
     background-color: #7af07a;
     padding: 80px 20px;
 }
-.service2-top{
+.list-box-1:hover .trans-icon{
+    transform: scale(1.5);
+}
+.list-box-2:hover .trans-icon{
+    transform: scale(1.5);
+}
+.list-box-3:hover .trans-icon{
+    transform: scale(1.5);
+}
+.list-box-4:hover .trans-icon{
+    transform: scale(1.5);
+}
+/*  <!-- ===========================================
+================  Offers  ===============  
+===========================================  --> */
+.offer-top-color{
     background-color: #7af07a;
-    width: 202px;
     height: 77px;
-    display: block;           why use this
-}
-.service2-icon-1{
-    background-color: #7af07a;
-    width: 108px;
-    height: 108px;
-    border-radius: 108px;
-    margin-left: 45px;
-    margin-top: -55px;
-    line-height: 285%;
-}
-.service2-textarea{
-    padding-top: 70px;
-    background-color: #fff;
-    width: 202px;
-    /* height: 215px; */
-}
-.service2-box1-1{
-    position: relative;
-    top: 103px;
-}
-.main-service{
-    padding: 0 50px;
-}
-.service2-icon-1{
-    font-size: 40px;
-}
-/* .service-top{
-    width: 100%;
-    height: 72px;
     display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .6s all ease;
 }
-.service2-icon-1 a{
+.offer-icon a{
     font-size: 40px;
     color: #fff;
-    line-height: 55px;
-    display: block;
 }
-.service2-icon-1{
-    border-radius: 100px;
-    display: inline-block;
-    height: 100px;
-    margin-bottom: 40px;
-    margin-top: -50px;
-    width: 100px;
-    background-color: #a5a8a5;
-    width: 100%;
-    height: 62px;
+.offer-icon{
+    background-color:#7af07a;
+    position: absolute;
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    line-height: 110px;
     display: block;
-} */
-.service2-textarea{
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+    transition: .6s all ease;
+}
+.offer-textarea{
+    padding-top: 125px;
+    padding-bottom: 50px;
     background-color: #fff;
+    border: 2px solid #fff;
+}
+.main-offer{
+    position: relative;
+    overflow: hidden;
+}
+
+.main-offer:hover .offer-top-color{
+    background-color: #4ed8f0;
+}
+.main-offer:hover .offer-icon{
+    background-color: #4ed8f0;
+}
+.offer-textarea a{
+    color: #e4dede;
+    font-weight: bold;
+}
+.offer-textarea a:hover{
+    color: #4ed8f0;
+}
+.trans-icon{
+    transition: 1s all ease;
+}
+.main-offer:hover .trans-icon{
+    transform: scale(1.5);
+}
+/*  <!-- ===========================================
+================  Pricing ===============  
+===========================================  --> */
+ .pricing-name{
+    padding-right: 20px;
+    border-top: 2px solid #c9c5c5;
+}
+.pricing-name h4{
+    border-bottom: 2px solid #c9c5c5;
+    padding: 15px 0;
+}
+.pricing-textarea{
+    padding-right: 20px;
+}
+.pricing-textarea p{
+    border-bottom: 2px solid #c9c5c5;
+    padding: 10px 0;
+}
+.pricing-dollar-sign{
+    font-size: 25px;
+}
+.pricing-dollar{
+    font-size: 40px;
+}
+.pricing-list{
+    margin-bottom: 100px;
+}
+.pricing-box{
+    background-color: #e5e9e5;
+}
+.pricing-color{
+    color: #7af07a;
+}
+.pricing-btn .btn{
+    background-color: #7af07a;
+    transition: .6s all ease;
+}
+.pricing-box:hover .pricing-btn a{
+    background-color: #4ed8f0;
+    color: #fff;
 }
 /*  <!-- ===========================================
 ================  Footer ===============  
@@ -244,9 +288,19 @@ span{
         margin-right: 25px;
     }
 }
+@media only screen and (max-width:575px){
+    .navbar{
+        padding: 15px 0 15px 15px;
+    }
+}
 @media only screen and (max-width:373px){
     .footer-links a{
         font-size: 10px;
+    }
+}
+@media only screen and (max-width:289px){
+    .navbar-brand img{
+        width: 120px!important;
     }
 }
 
