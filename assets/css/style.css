@@ -117,10 +117,10 @@ li{
 /*  <!-- ===========================================
 ================  Project Lists  ===============  
 ===========================================  --> */
-.list-box-1:hover .list-box-1 a{
+.list-box-1:hover .list-box-1 span{
     color: green;
 }
-.list-box-1 a{
+.list-box-1 span{
     font-size: 60px!important;
     color: #fff;
 }
@@ -129,7 +129,7 @@ li{
     background-color: #7af07a;
     padding: 80px 20px;
 }
-.list-box-2 a{
+.list-box-2 span{
     font-size: 60px!important;
     color: #fff;
 }
@@ -140,7 +140,7 @@ li{
     transition: .06s all ease;
 }
 
-.list-box-3 a{
+.list-box-3 span{
     font-size: 60px!important;
     color: #fff;
 }
@@ -149,7 +149,7 @@ li{
     background-color: #4ed8f0;
     padding: 80px 20px;
 }
-.list-box-4 a{
+.list-box-4 span{
     font-size: 60px!important;
     color: #fff;
 }
@@ -183,7 +183,7 @@ li{
     width: 100%;
     transition: .6s all ease;
 }
-.offer-icon a{
+.offer-icon span{
     font-size: 40px;
     color: #fff;
 }
